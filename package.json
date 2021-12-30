@@ -1,0 +1,28 @@
+{
+  "name": "bitburner-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for the Bitburner game",
+  "main": "null",
+  "scripts": {
+    "lint": "eslint scripts --max-warnings 0",
+    "test": "echo 'nope'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhcarrigan/bitburner-scripts.git"
+  },
+  "author": "Nicholas Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nhcarrigan/bitburner-scripts/issues"
+  },
+  "homepage": "https://github.com/nhcarrigan/bitburner-scripts#readme",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^37.4.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
