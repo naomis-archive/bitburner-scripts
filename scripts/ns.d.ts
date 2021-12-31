@@ -275,4 +275,77 @@ declare type NS = {
    * @returns {boolean} True if the script is running.
    */
   isRunning: (script: string, hostName: string, args: string[]) => boolean;
+  /**
+   * Hacknet Namespace
+   */
+  hacknet: {
+    /**
+     * Get the number of Hacknet nodes you own.
+     * @returns {number} The number of nodes you own.
+     */
+    numNodes: () => number;
+    /**
+     * Purchase a new node.
+     * @returns {number} The new node's number, or -1 on failure.
+     */
+    purchaseNode: () => number;
+    /**
+     * Get the cost of purchasing a new node.
+     * @returns {number} The cost of a new node.
+     */
+    getPurchaseNodeCost: () => number;
+    /**
+     * Get the stats of a node.
+     * @param {number} index The index of the node to look up.
+     * @returns {object} The node's stats.
+     */
+    getNodeStats: (index: number) => {
+      name: string;
+      level: number;
+      ram: number;
+      cores: number;
+    };
+    /**
+     * Upgrades a node's level.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to purchase.
+     * @returns {boolean} True if the upgrade was successful.
+     */
+    upgradeLevel: (index: number, num: number) => boolean;
+    /**
+     * Upgrades a node's RAM.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to purchase.
+     * @returns {boolean} True if the upgrade was successful.
+     */
+    upgradeRam: (index: number, num: number) => boolean;
+    /**
+     * Upgrades a node's cores.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to purchase.
+     * @returns {boolean} True if the upgrade was successful.
+     */
+    upgradeCore: (index: number, num: number) => boolean;
+    /**
+     * Gets the cost to upgrade a node's level.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to calculate.
+     * @returns {number} The cost to purchase the upgrades.
+     */
+    getLevelUpgradeCost: (index: number, num: number) => number;
+    /**
+     * Gets the cost to upgrade a node's RAM.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to calculate.
+     * @returns {number} The cost to purchase the upgrades.
+     */
+    getRamUpgradeCost: (index: number, num: number) => number;
+    /**
+     * Gets the cost to upgrade a node's cores.
+     * @param {number} index The index of the node to upgrade.
+     * @param {number} num The number of upgrades to calculate.
+     * @returns {number} The cost to purchase the upgrades.
+     */
+    getCoreUpgradeCost: (index: number, num: number) => number;
+  };
 };
