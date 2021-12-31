@@ -1,0 +1,13 @@
+Run these to create helpful aliases.
+
+alias scan-analyse="scan-analyze"
+alias analyse="analyze"
+alias ssh="connect"
+alias logout="home"
+alias ascan="scan-analyse"
+
+These ones require the scripts.
+
+alias find="run find-server.js"
+alias spider="run scanner.js"
+
