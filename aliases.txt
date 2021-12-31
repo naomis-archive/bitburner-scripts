@@ -10,4 +10,4 @@ These ones require the scripts.
 
 alias find="run find-server.js"
 alias spider="run scanner.js"
-
+alias buyall="buy brutessh.exe;buy ftpcrack.exe;buy relaysmtp.exe;buy httpworm.exe;buy sqlinject.exe;buy serverprofiler.exe;buy deepscanv1.exe;buy deepscanv2.exe;buy autolink.exe;buy formulas.exe"

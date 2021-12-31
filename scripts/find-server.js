@@ -1,5 +1,5 @@
 /**
- * Generates a server "connection tree" for reaching the
+ * Generates a command for reaching the
  * target server.
  *
  * @param {NS} ns The Netscript Module.
@@ -17,8 +17,8 @@ export function main(ns) {
     serverTree.unshift(scanResults[0]);
   }
   ns.tprint(
-    `\nTo connect to this server, SSH in the following order:\n${serverTree.join(
-      " -> "
-    )}`
+    `\nTo connect to this server, run this command:\n${serverTree
+      .map((el) => `ssh ${el}`)
+      .join(";")}`
   );
 }
