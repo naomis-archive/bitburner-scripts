@@ -40,6 +40,7 @@
     "jsdoc/no-undefined-types": "off",
     "jsdoc/require-description-complete-sentence": "error",
     "import/first": "error",
+    "import/no-unresolved": ["off"],
     "import/exports-last": "error",
     "import/newline-after-import": "error",
     "import/order": [
