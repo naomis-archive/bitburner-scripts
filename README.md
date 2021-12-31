@@ -1,12 +1,20 @@
-# Project Name
+# BitBurner Scripts
 
-Project Description
+BitBurner is an idle game where you play as a hacker, writing real code in JavaScript to "hack" servers and earn money. With your code, you can automate almost everything in the game.
+
+This repository is a collection of scripts that I have written for the game.
 
 ## Live Version
 
-This page is not yet deployed.
+These scripts are for use within the game and are not live.
 
-<!--This page is currently deployed. [View the live website.]()-->
+## Usage
+
+These scripts should be copied into files with the same name in your `~` directory within the game. Note that the `modules` folder cannot be created with `mkdir`, so you would need to `nano modules/calculate-threads.js` to create that file.
+
+## Disclaimer
+
+BitBurner is a FICTIONAL game and these are FICTIONAL scripts. Nothing in this repository is intended to endorse or facilitate actual hacking, and the authors of these scripts do not condone criminal behaviour.
 
 ## Feedback and Bugs
 
