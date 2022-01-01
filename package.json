@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/nhcarrigan/bitburner-scripts#readme",
   "devDependencies": {
-    "eslint": "^8.5.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint": "8.5.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jsdoc": "37.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1"
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1"
   }
 }
