@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/nhcarrigan/bitburner-scripts#readme",
   "devDependencies": {
-    "eslint": "8.8.0",
+    "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsdoc": "37.9.0",
